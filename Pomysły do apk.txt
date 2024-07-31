@@ -1,0 +1,11 @@
+Przepisy kulinarne - aplikacja może oferować użytkownikom przepisy na zdrowe i smaczne posiłki.
+Kalendarz zajęć - użytkownicy mogą przeglądać kalendarz zajęć i rezerwować miejsca na zajęcia grupowe.
+Poradniki dotyczące zdrowia - użytkownicy mogą korzystać z poradników dotyczących zdrowia i dobrego samopoczucia.
+Motywacja - aplikacja może pomagać użytkownikom utrzymać motywację poprzez udostępnienie inspirujących cytatów, artykułów i zdjęć.
+Chat z trenerem - użytkownicy mogą rozmawiać z trenerem, aby uzyskać porady i wsparcie w zakresie treningu i żywienia.
+Mapa siłowni - użytkownicy mogą przeglądać mapę siłowni i znaleźć najbliższą siłownię.
+Programy treningowe - aplikacja może oferować gotowe programy treningowe, dopasowane do różnych celów, poziomów zaawansowania i typów treningu.
+Monitoring postępów(wykres) - użytkownicy mogą monitorować swoje postępy i zmiany w ciele, takie jak utrata masy ciała, wzrost siły i wytrzymałości, a także śledzić swoje wyniki w czasie.
+Analiza wyników - aplikacja może przeprowadzać analizę wyników użytkowników i wskazywać na ich mocne i słabe strony oraz proponować rozwiązania, które pomogą w osiągnięciu celów treningowych.
+Porady treningowe - aplikacja może oferować porady treningowe od ekspertów, które pomogą użytkownikom poprawić swoją technikę i osiągnąć lepsze wyniki.
+Sklep z suplementami - użytkownicy mogą przeglądać i kupować suplementy diety, które pomogą im w osiągnięciu celów treningowych.

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "836709147921",
+    "project_id": "olimpapp-ff429",
+    "storage_bucket": "olimpapp-ff429.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836709147921:android:56189b96381241c37818b0",
+        "android_client_info": {
+          "package_name": "com.example.ucze_sie_swiry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "836709147921-udli2i5c70o3skgf87i07uf971a4a3qg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcy8NSSgzVqpJS0XBJCdfb3pv4yoTxbYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "836709147921-udli2i5c70o3skgf87i07uf971a4a3qg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

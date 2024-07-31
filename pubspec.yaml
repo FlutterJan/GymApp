@@ -1,0 +1,232 @@
+name: ucze_sie_swiry
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.5 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  
+
+
+  cloud_firestore: ^4.5.0
+  firebase_core: ^2.15.0
+  firebase_auth: ^4.4.0
+  email_validator: ^2.1.17
+  google_sign_in: ^6.2.1
+  shared_preferences: ^2.1.0
+  webview_flutter: ^4.4.2
+  firebase_database: ^10.1.0
+  google_maps_flutter: ^2.5.0
+  geolocator: ^10.1.0
+  #carousel_slider: ^4.1.1
+  syncfusion_flutter_charts: ^23.2.7
+  syncfusion_flutter_datagrid: ^23.2.7
+  smooth_page_indicator: ^1.1.0
+  intl: ^0.18.1
+  gap: ^3.0.1
+  blur: ^3.1.0
+  stop_watch_timer: ^3.0.2
+  timer_count_down: ^2.2.2
+  flutter_launcher_icons: ^0.13.1
+  readmore: ^2.2.0
+  firebase_messaging: ^14.7.4
+  connectivity_plus: ^5.0.2
+  audioplayers: ^5.2.1
+  restart_app: ^1.2.1
+  table_calendar: ^3.0.9
+  flutter_reorderable_list: ^1.3.1
+  carousel_slider_plus: ^6.0.0
+
+  
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+    
+  
+  flutter_lints: ^3.0.1
+
+    
+  
+
+flutter_launcher_icons:
+  #  flutter pub run flutter_launcher_icons:main
+  image_path_android: "images/logoAndroid.png"
+  image_path_ios: "images/logo3.png"
+  android: true # can specify file name here e.g. "ic_launcher"
+  ios: true # can specify file name here e.g. "My-Launcher-Icon"
+  adaptive_icon_background: "#ffffff" # only available for Android 8.0 devices and above
+  adaptive_icon_foreground: "images/logoAndroid.png" # only available for Android 8.0 devices and above
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  remove_alpha_ios: true
+  background_color_ios: "#ffffff"
+
+
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/pobrane.jpg
+    - images/barkiDoListy.png
+    - images/AssDoListy.png
+    - images/Biceps.png
+    - images/lats.png
+    - images/Abdominals.png
+    - images/Hamstrings.png
+    - images/Calves.png
+    - images/traps.png
+    - images/Obliques.png
+    - images/triceps.png
+    - images/photo1.png
+    - images/Home.png
+    - images/Chest.png
+    - images/DeadLiftMuscles.png
+    - images/PullUp.png
+    - images/BBicepsCurl.png
+    - images/standing-military-press.png
+    - images/DumbbellOverHeadDes.png
+    - images/LiteralRises.png
+    - images/dumbbell-lateral-raise.png
+    - images/HipThrust.png
+    - images/FrenchPress.png
+    - images/images/DumbbellFlyyy.png
+    - images/Zercher.png
+    - images/TricepExtensionn.png
+    - images/DIP.png
+    - images/BenchDip.png
+    - images/BAckkkextension.png
+    - images/BarbellRoww.png
+    - images/BentOverr.png
+    - images/BlugarianSplitSquat-PhotoRoom.png-PhotoRoom.png
+    - images/CableCrunch1.png
+    - images/cable-face-pull-muscles-1024x482.png
+    - images/CableTwist112.png
+    - images/power-clean-muscles.png
+    - images/Bicek.png
+    - images/Brzuchy.png
+    - images/bicycle-crunch.png
+    - images/declineBenchPress.png
+    - images/Avatar.png
+    - images/calculator.png
+    - images/Settings.png
+    - images/plan12.png
+    - images/suplements.png
+    - images/protein.png
+    - images/BCAA.jpg
+    - images/Beta-alanina.png
+    - images/AAKG.png
+    - images/Omega3.png
+    - images/caffeine.png
+    - images/Taurine.png
+    - images/D3K2.png
+    - images/Carbss.jpg
+    - images/Magnes.png
+    - images/zinc.png
+    - images/sod.png
+    - images/potas.png
+    - images/chromium.png
+    - images/chart.png
+    - images/zelazo.png
+    - images/wapn.png
+    - images/hmb.png
+    - images/witC.png
+    - images/WitE.webp
+    - images/WitB.png
+    - images/biotna.png
+    - images/PWR.jpg
+    - images/olimp-gold-vit-b-forte-60-tabletek-powlekanych.2.jpg
+    - images/logOut.png
+    - images/protein1.jpg
+    - images/Lewis.jpg
+    - images/Zakwasy.jpeg
+    - images/body-building.webp
+    - images/Taurine.png
+    - images/Creatine.png
+    - images/Magnes.png
+    - images/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png
+    - images/MaxIcon.png
+    - images/logo.png
+    - images/tlo1.jpg
+    - images/tlo7.jpg
+    - images/tlo11.jpg
+    - images/tlo12.jpg
+    - images/tlo13.jpg
+    - images/tlo14.jpg
+    - images/tlo8.jpg
+    - images/tlo9.jpg
+    - images/tlo10.jpg
+    - images/barbellRow.jpg
+    - images/benchPress.jpg
+    - images/BicepsCurl.jpg
+    - images/PullUp.jpg
+    - images/barbellOverHead.jpg
+    - images/DumbbellOverheadPress.jpg
+    - images/CableLateralRises.jpg
+    - images/DumbbellLateralRaises.jpg
+    - images/HipThrust.jpg
+    - images/FrenchPresss.png
+    - images/DumbbellFlys.jpg
+    - images/ZercherSquat.jpg
+    - images/TricepsExtension.jpg
+    - images/BenchDip.jpg
+    - images/dip.jpg
+    - images/backExtension.jpg
+    - images/BlugarianSplitSquat.jpg
+    - images/CableCrunch.jpg
+    - images/FacePull.png
+    - images/CableTwist.jpg
+    - images/PowerClean.jpg
+    - images/ConcentrationCurl.jpg
+    - images/Cruch.jpg
+    - images/BicycleCrunch.jpg
+    - images/DeclineBenchPresss.png
+    - images/DumbellRow.jpg
+    - images/barbellRow.jpg
+    - images/DeadLift.jpg
+    - images/tlo16.jpg
+    - images/Bialko.png
+    - images/tlo15.jpg
+    - images/language.png
+    - images/tlo17.jpg
+    - assets/alarm.mp3
+    - images/no_internet.png
+    - images/workout.png
+    - images/pushTraining.jpeg
+    - images/waterIcon.png
+    - images/waterBackground.jpg
+    - images/usedMusclesShrusgs.png
+    - images/sidePlank.jpeg
+    - images/romanianDeadlift.webp
+    - images/Romanian-Deadlift-Muscles-Worked-scaled.png
+    - images/shrugs.png
+    - images/scapularPullUp.jpeg
+    - images/Quadriceps.png
+    - images/timer.png
+    - images/tlo18.jpg
+    - images/calendar.png
+    - images/pull.jpeg
+    - images/logoAndroid.png
+    - assets/alarm1.mp3
+    - images/
+    - images/
+    - images/
+    
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+  fonts:
+      - family: Satoshi
+        fonts:
+          - asset: fonts/Satoshi-Variable.ttf
